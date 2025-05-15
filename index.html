@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future of Statistical Consulting</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 2rem; background-color: #f4f4f4; }
+    h1 { color: #003366; }
+    .container { background: white; padding: 2rem; border-radius: 10px; max-width: 900px; margin: auto; }
+    label { display: block; margin-top: 1rem; font-weight: bold; }
+    select, input, textarea { width: 100%; padding: 0.5rem; margin-top: 0.5rem; }
+    button { margin-top: 1.5rem; padding: 0.75rem 1.5rem; background-color: #003366; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background-color: #0055a5; }
+  </style>
+  <script>
+    function updateMessage() {
+      const industry = document.getElementById('industry').value;
+      const priority = document.getElementById('priority').value;
+      const expertise = document.getElementById('expertise').value;
+      const messageBox = document.getElementById('message');
+
+      messageBox.value = `Hi there,\n\nI'm interested in the following:\n- Industry: ${industry}\n- Priority: ${priority}\n- Expertise: ${expertise}\n\n`;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Macquarie Statistical Consulting Hub!</h1>
+    <p>This is a pilot of the Statistical Consulting Hub within the School of Mathematical and Physical Sciences at Macquarie University.</p>
+    <p>Our initiative unites our top statisticians to provide tailored support for research, educational, and industry-facing projects. Whether you are refining a study design, interpreting complex results, or seeking specialised methodological advice, our team empowers you to generate high-quality, ethical, and impactful work.</p>
+    <p>We would love to learn more about your projects and explore how our expertise might support your goals. As an academic or external partner, you can tap into Macquarie’s world-class statistical expertise through this pilot. Together, we can unlock the potential of your data to create a lasting impact on society.</p>
+    <p>If this speaks to your current goals, we would love to hear more about your projects and priorities.</p>
+
+    
+<h2>Submit your request</h2>
+<iframe src="https://forms.office.com/r/bpVWswgpTn"
+        width="100%" height="800px" frameborder="0" marginheight="0" marginwidth="0">
+  Loading…
+</iframe>
+
+  </div>
+</body>
+</html>
